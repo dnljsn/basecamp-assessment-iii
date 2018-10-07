@@ -1,0 +1,99 @@
+body{
+  width: 1280px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 25px;
+}
+
+header {
+  width: 100%;
+  height: 150px;
+  background-image: url("images/header.jpg");
+  text-align: center;
+  vertical-align: middle;
+}
+
+header > h1{
+  font-size: 45px;
+  color: white;
+  padding-top:50px;
+}
+
+#formContent{
+  margin-top: 25px;
+  width: 1280px;
+  float: left;
+}
+
+#formContent div{
+  float:left;
+  margin-right: 35px;
+}
+
+#address{
+  width:200px;
+}
+
+#state{
+  width:75px;
+}
+
+#zip{
+  width:100px;
+}
+
+#email{
+  width:250px;
+}
+
+#firstName, #lastName{
+  width:150px;
+}
+
+#formContent input{
+  margin-bottom: 25px;
+}
+
+#formContent input:focus {
+  background-color: #cfdf89;
+}
+
+#links{
+  width:1280px;
+  height: 225px;
+  float:left;
+  margin-top:25px;
+}
+
+.logoLink{
+  float:left;
+  width: 200px;
+  height: 100px;
+  margin-right: 35px;
+}
+
+.logoLink div{
+  width: 200px;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-size: 200px;
+}
+
+#microsoft div{
+  background-image: url("images/microsoft.png");
+}
+
+#google div{
+  background-image: url("images/google.png");
+}
+
+#verge div{
+  background-image: url("images/verge.png");
+}
+
+#github div{
+  background-image: url("images/github.png");
+}
+
+#amazon div{
+  background-image: url("images/amazon.png");
+}
